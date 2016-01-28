@@ -1,0 +1,109 @@
+div {
+	border-radius: 5px;
+}
+.box {
+	height:auto;
+	position: relative;
+}
+/** CREATE MAIN CSS SCRIPT FOR BOXES (HEIGHT, POSITION, MARGIN)	**/
+#header {
+	z-index: 1;
+	width: 100%;
+	margin-top: -20px;
+	height: 40px;
+	background-color: #004d00;
+	margin-bottom: 10px;
+}
+#header a {
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    padding: 0px 25px 25px 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#header li {
+    display: inline;
+}
+.pull-left {
+    float:left;
+}
+.pull-right {
+    float:right;
+	margin-right: 20px;
+}
+/** Cool stuff
+li {
+	list-style-type:decimal;
+}
+**/
+a:hover {
+	font-weight: bold;
+}
+
+#index-sum {
+	float: left;
+	width: 63%;
+	height: 600px;
+	margin-bottom: 10px;
+	background-color: #9fdf9f;
+	text-align: center;
+}
+#index-sum img {
+	height:300px;
+}
+#tweets {
+	float: right;
+	padding: 5px 5px 5px 5px;
+	width: 35%;
+	height: 590px;
+	margin-bottom: 10px;
+	background-color: #8cb98c;
+}
+
+/**		"About Me" CSS **/
+
+#bio {
+	width: 96%;
+	height: 425px;
+	margin-bottom: 10px;
+	padding: 25px 25px 25px 25px;
+	background-color: #8cb98c;
+	text-align: center;
+}
+#bio-info {
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+	height: 100px;
+	background-color: #9fdf9f;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+#footer {
+	height: 50px;
+	background-color: #262626;
+	padding: 5px 5px 5px 5px;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+#footer .pull-left img {
+	height: 40px;
+	padding: 5px 10px 5px 10px;
+}
+#footer .pull-right p {
+	padding: 0px 5px 5px 5px;
+	font-size: 10px;
+	text-decoration: none;
+}
+#footer .pull-right p a {
+	color: white;
+}
+/** FIX THE HOVER FOR THE WORKS CITED **
+.pull-right p a{
+	color: white;
+}
