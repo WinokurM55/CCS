@@ -12,7 +12,7 @@ div {
 	width: 100%;
 	margin-top: -20px;
 	height: 40px;
-	background-color: #00ff00;
+	background-color: #0b1e15;
 	margin-bottom: 10px;
 }
 #header a {
@@ -39,7 +39,7 @@ li {
 	list-style-type:decimal;
 }
 **/
-a:hover {
+#header a:hover {
 	font-weight: bold;
 }
 /**		"About Me" CSS **/
@@ -64,6 +64,9 @@ a:hover {
 }
 #footer .pull-right p a {
 	color: white;
+}
+#title {
+	clear:both;
 }
 /** FIX THE HOVER FOR THE WORKS CITED **
 .pull-right p a{
