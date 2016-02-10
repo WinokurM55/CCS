@@ -65,6 +65,10 @@ a:hover {
 #footer .pull-right p a {
 	color: white;
 }
+#benefitsTitle {
+	font-weight:bold;	
+}
+
 /** FIX THE HOVER FOR THE WORKS CITED **
 .pull-right p a{
 	color: white;
