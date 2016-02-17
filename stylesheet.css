@@ -5,6 +5,7 @@ div {
 .box {
 	height:auto;
 	position: relative;
+	margin: 0px 0px 30px 0px
 }
 /** CREATE MAIN CSS SCRIPT FOR BOXES (HEIGHT, POSITION, MARGIN)	**/
 #header {
@@ -13,7 +14,6 @@ div {
 	margin-top: -20px;
 	height: 40px;
 	background-color: #0b1e15;
-	margin-bottom: 10px;
 }
 #header a {
     color: white;
@@ -42,10 +42,10 @@ li {
 #header a:hover {
 	font-weight: bold;
 }
-/**		"About Me" CSS **/
 #footer {
 	height: 50px;
 	background-color: #262626;
+
 	padding: 5px 5px 5px 5px;
 	clear: both;
 	font-family: Verdana, sans-serif;
@@ -73,8 +73,4 @@ li {
 }
 table {
 	margin: auto;
-}
-/** FIX THE HOVER FOR THE WORKS CITED **
-.pull-right p a{
-	color: white;
 }
