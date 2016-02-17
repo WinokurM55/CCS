@@ -59,7 +59,7 @@ li {
 }
 #footer .pull-right p {
 	padding: 0px 5px 5px 5px;
-	font-size: 10px;
+	font-size: 8px;
 	text-decoration: none;
 }
 #footer .pull-right p a {
@@ -67,6 +67,12 @@ li {
 }
 #title {
 	clear:both;
+}
+#title h1 {
+	font-size: 60px;
+}
+table {
+	margin: auto;
 }
 /** FIX THE HOVER FOR THE WORKS CITED **
 .pull-right p a{
