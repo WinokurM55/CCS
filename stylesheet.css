@@ -5,6 +5,7 @@ div {
 .box {
 	height:auto;
 	position: relative;
+	margin: 0px 0px 30px 0px
 }
 /** CREATE MAIN CSS SCRIPT FOR BOXES (HEIGHT, POSITION, MARGIN)	**/
 #header {
@@ -12,8 +13,7 @@ div {
 	width: 100%;
 	margin-top: -20px;
 	height: 40px;
-	background-color: #004d00;
-	margin-bottom: 10px;
+	background-color: #006900;
 }
 #header a {
     color: white;
@@ -32,20 +32,20 @@ div {
 }
 .pull-right {
     float:right;
-	margin-right: 20px;
+		margin-right: 20px;
 }
 /** Cool stuff
 li {
 	list-style-type:decimal;
 }
 **/
-a:hover {
+#header a:hover {
 	font-weight: bold;
 }
-/**		"About Me" CSS **/
 #footer {
 	height: 50px;
 	background-color: #262626;
+
 	padding: 5px 5px 5px 5px;
 	clear: both;
 	font-family: Verdana, sans-serif;
@@ -59,13 +59,18 @@ a:hover {
 }
 #footer .pull-right p {
 	padding: 0px 5px 5px 5px;
-	font-size: 10px;
+	font-size: 8px;
 	text-decoration: none;
 }
 #footer .pull-right p a {
 	color: white;
 }
-/** FIX THE HOVER FOR THE WORKS CITED **
-.pull-right p a{
-	color: white;
+#title {
+	clear:both;
+}
+#title h1 {
+	font-size: 60px;
+}
+table {
+	margin: auto;
 }
